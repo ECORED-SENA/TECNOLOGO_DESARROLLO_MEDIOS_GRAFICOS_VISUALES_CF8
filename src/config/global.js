@@ -214,94 +214,80 @@ export default {
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Compresión',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'La compresión de las imágenes digitales se ha hecho imprescindible debido a que el tamaño de los archivos de imagen es cada vez mayor, la compresión de una fotografía es la reducción de los datos digitales que no resultan necesarios e importantes. Esta compresión permite almacenar mayor número de imágenes al conseguir que los archivos resultantes no ocupen mucho espacio.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'CMYK',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'El modelo CMYK (siglas de <em>Cyan</em>, Magenta, <em>Yellow</em> y <em>Key</em>) es un modelo de color sustractivo que se utiliza en la impresión en colores. Es la versión moderna y más precisa del antiguo modelo tradicional de coloración (RYB).',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Dimensión',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        '(Como medida de tamaño o espacio). La dimensión también puede ser el área, el volumen o la longitud de una superficie, un cuerpo o una línea.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Imagen',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Significa figura o representación visual de algo o alguien.',
     },
     {
-      termino: 'Moda',
+      termino: 'Lente para cámara',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Se denomina objetivo al dispositivo que contiene el conjunto de lentes convergentes y divergentes y, en algunos casos, el sistema de enfoque y obturación, que forman parte de la óptica de una cámara tanto fotográfica como de vídeo.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Mapa de <em>bits</em>',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es aquella imagen que justamente se presenta en mapa de <em>bits</em>, que consiste en una estructura de forma rectangular formada por píxeles o puntos de color, y que puede visualizarse en un monitor, en un papel o en cualquier otro dispositivo que permita la representación de imágenes.',
     },
     {
-      termino: 'DIseño',
+      termino: 'RBG',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es una sigla formada por los términos de la lengua inglesa <em>red</em> (rojo), <em>green</em> (verde) y <em>blue</em> (azul). El concepto suele emplearse para referirse a un modelo cromático que consiste en representar distintos colores a partir de la mezcla de estos tres colores primarios.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Saturación',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Es la intensidad de cada color de una foto, según el grado de blanco, negro o gris de su composición, cuanta más ausencia de estos sobre un color, más pureza e intensidad.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Sensor',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Dispositivo electrónico fabricado con materiales semiconductores y estructurado en forma de matriz, acumulan una carga eléctrica en cada celda de la matriz (o píxel) en proporción a la intensidad de la luz que incide sobre ella localmente.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Vector',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es un segmento de recta en el espacio que parte de un punto hacia otro, es decir, que tiene dirección y sentido. Los vectores en física tienen por función expresar las llamadas magnitudes vectoriales.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Zerbst, C. (2008). Introducción a la fotografía digital.',
+      tipo: 'Libro',
+      link:
+        'https://www.uv.mx/personal/lenunez/files/2013/06/INICIACION-A-LA-FOTOGRAFIA-DIGITAL-DeCamaras.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Espinosa, Y. (2019). Historia de la fotografía: un recorrido por los principales referentes fotográficos y su influencia posterior. SCRIBD.',
+      tipo: 'Documento',
+      link:
+        'https://es.scribd.com/document/448421721/Historia-de-la-Fotografia-un-recorrido-p-pdf',
+    },
+    {
+      texto: 'Amador, P. (s.f.). La imagen fotográfica y su lectura. CORE.',
+      tipo: 'Artículo PDF',
+      link: 'https://core.ac.uk/download/pdf/30042969.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+        'Ordoñez, C (2005). Formatos de imagen digital. Revista Digital Universitaria 5(7), p. 1-10.',
+      tipo: 'Revista',
+      link: 'http://www.revista.unam.mx/vol.6/num5/art50/may_art50.pdf',
     },
   ],
   creditos: {
@@ -317,7 +303,31 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+      },
+      {
+        nombre: 'Carlos Andrés Suescun Lesmes',
+        cargo: 'Experto temático',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
+      },
+      {
+        nombre: 'Adriana López',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -325,53 +335,59 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Juan Carlos Tapias Rueda',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Andrea Paola Botello De la Rosa',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+      },
+      {
+        nombre: ' ',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: ' ',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
     ],
   },
