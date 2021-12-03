@@ -84,7 +84,8 @@
                 p Es el dispositivo de captura de imágenes más tradicional, el cual se encarga de convertir una fotografía de un papel, imagen de revista o libro en información que se puede interpretar y manejar en un computador. En la actualidad los escáner pueden emplear 16 bits para cuantificar los niveles de cada sensor, por lo que cada píxel va codificado en 48 bits (16 bits x 3 sensores).
       .col-lg-4.col-md-9.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
-          .col-12.m-0.nav-holder2.align-items-center.px-0
+          .col-12.m-0.nav-holder2.align-items-center.px-0(@mouseover="mostrarIndicador = false")
+            .indicador--hover(v-if="mostrarIndicador")
             figure
               img(src="@/assets/curso/tema2-1-tarj2.png", alt="Cámaras digitales")
             .text.p-lg-2.p-3
@@ -122,6 +123,10 @@
       .col-md-7.mb-4(data-aos="fade-left")
         p Es importante saber que las cámaras digitales fotográficas son dispositivos de captura de imagen fija, portátiles, confiables y cada día más prácticas en su manejo y utilización. Se debe considerar que el mercado es variado y tiene como consecuencia que se jerarquicen por gamas. Dentro de las posibilidades de adquisición de un dispositivo fotográfico se debe de tener en cuenta las necesidades de su labor, pues será ese el factor decisivo para determinar qué dispositivo adquirir según su utilidad.
 
+
+
+
+    
 
 
 </template>

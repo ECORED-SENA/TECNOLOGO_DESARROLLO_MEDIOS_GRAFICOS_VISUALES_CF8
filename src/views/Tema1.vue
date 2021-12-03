@@ -194,7 +194,7 @@
         img(src='@/assets/curso/tema1-2-img.png', alt='Imagen decorativa')  
 
 
-    .titulo-tercero.titulo-tercero__3.mb-4(data-aos="fade-right")
+    .titulo-tercero.titulo-tercero__5.mb-4(data-aos="fade-right")
       h3.mb-0 Imágenes de mapa de bits
       img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
 
@@ -211,6 +211,35 @@
     p.mb-4(data-aos="fade") Esta categoría de imágenes que su matriz es un mapa de bits tiene los siguientes formatos de archivos donde cada uno tiene diferente capacidad de contener cierta cantidad de bits según su utilidad y circulación, es decir, visualización:
 
     
+
+
+
+    .titulo-tercero.titulo-tercero__6.mb-4(data-aos="fade-right")
+      h3.mb-0 Imágenes vectoriales
+      img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
+
+    .row
+      .col-md-7.mb-4(data-aos="fade-right")
+        p Son imágenes que se conforman por objetos geométricos independientes, tales como curvas, líneas, polígonos, etc., dichos objetos son considerados funciones matemáticas o vectores, los cuales presentan diversas características como color, forma, posición, entre otras. Son imágenes creadas en programas de dibujo vectorial o de diseño, estos pueden ser 
+          italic Corel Draw, Adobe Illustrator e Inkscape, 
+          | estos <em>softwares</em> se utilizan para la composición de logotipos, dibujos y rótulos. 
+      .col-md-5.mb-4(data-aos="fade-left")
+        img(src='@/assets/curso/tema1-2-img3.png', alt='Imagen decorativa')
+
+    p.mb-4(data-aos="fade") Cuentan con una gran ventaja a diferencia de las imágenes de mapa de bits:
+
+    .row.justify-content-center.align-items-center(data-aos="fade-down")
+      .col-md-4.mb-4
+        img(src='@/assets/curso/tema1-2-fig1.svg', alt='Vector')
+      .col-md-2.mb-4
+        h1.text-center VS.  
+      .col-md-4.mb-4
+        img(src='@/assets/curso/tema1-2-fig2.svg', alt='Bitmap')
+
+    p.mb-4(data-aos="fade") Las imágenes vectorizadas pueden ampliarse a cualquier tamaño y nunca la imagen sufre el efecto de pixelado, como característica principal se puede mencionar que están determinadas por rellenos y sus contornos son bien definidos y al momento de visualizarse en cualquier dispositivo de salida no pierden sus atributos y calidad.
+
+
+
 
 
 

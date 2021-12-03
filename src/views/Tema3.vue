@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.bloque-fondo-intro
 
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
@@ -216,7 +216,92 @@
 
     p.mb-4(data-aos="fade") En fotografía es la materia prima, sin ella no podrá ser posible que la cámara fotográfica registre una imagen. Se debe recordar que es el sensor de la cámara fotográfica el que recoge la luz que llega del exterior. Cuando se hace referencia a la iluminación en fotografía se debe tener en cuenta las fuentes lumínicas. Para estos asuntos fotográficos se tendrá en cuenta: 
 
-   
+    .row.justify-content-center
+      .col-md-5.mb-4(data-aos="fade-right")
+        .nav-holder.align-items-center.px-0
+          figure
+            img(src="@/assets/curso/tema3-3-tarj1.png", alt="Escáner")
+          .text.p-lg-2.p-3
+            .row.px-3.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
+              .h5.mt-4.mt-lg-0.mb-2 La luz natural
+              p Producida por los rayos de sol.
+      .col-md-5.mb-4(data-aos="fade-left")
+        .nav-holder.align-items-center.px-0(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          figure
+            img(src="@/assets/curso/tema3-3-tarj2.png", alt="Escáner")
+          .text.p-lg-2.p-3
+            .row.px-3.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
+              .h5.mt-4.mt-lg-0.mb-2 La luz artificial
+              p Producida por fuentes lumínicas artificiales.     
+
+    .row.mb-md-4
+      .col-md-7.mb-4(data-aos="fade-right")
+        p Cualquiera de las dos serán determinantes para la construcción de la imagen en la cámara fotográfica, pues sin presencia de luz no habrá información suficiente para que el sensor la convierta en imagen. El trabajar con fuente de iluminación natural es más complicado que con luz artificial, pues se debe considerar que es una luz que está presente a determinadas horas en el día, además de la existencia de nubes, las cuales cambian las condiciones lumínicas; lo que finalmente hará no controlar nunca la luz natural. 
+      .col-md-5.mb-4(data-aos="fade-left")
+        img(src='@/assets/curso/tema3-3-img2.png', alt='Imagen decorativa')
+
+    .row.mb-md-4
+      .col-md-5.mb-4(data-aos="fade-right")
+        img.mb-2(src='@/assets/curso/tema3-3-img3.png', alt='Imagen decorativa')
+      .col-md-7.mb-4(data-aos="fade-left")
+        .cajon2.color-primario.personalizado.px-md-5.py-md-0.p-4
+          .bloque-texto-b__texto
+            h4.mb-0 Por supuesto, es una luz que se tiene presente en el día y para la generalidad de tomas fotográficas funciona haciendo un buen uso de ella. Pero en fotografías más estrictas como la publicitaria, hace falta adicionar a las condiciones de luz natural unas luces artificiales que potencien la escena a fotografiar.
+
+    .row.mb-md-5
+      .col-md-7.mb-4(data-aos="fade-right")
+        .cajon.color-primario.p-4.mb-4 
+          p.mb-0 Por otra parte, la iluminación artificial es una luz que se puede controlar, poner, quitar o alterar; lo cual hace que favorezca por sus múltiples maneras de iluminar el escenario. En el universo de las luces artificiales cualquiera se puede utilizar para la fotografía; aunque hay por supuesto muchas dedicadas y especializadas para fotografía, desde una vela hasta un bombillo de poste de luz puede favorecer la toma fotográfica. 
+      .col-md-5.mb-4(data-aos="fade-left")
+        img(src='@/assets/curso/tema3-3-img4.png', alt='Imagen decorativa')
+
+
+    .titulo-tercero.titulo-tercero__4.mb-4(data-aos="fade-right")
+      h3.mb-0 Sensibilidad (Norma ISO) 
+      img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
+
+    .row.mb-md-4
+      .col-md-7.mb-4(data-aos="fade-right")
+        p La sensibilidad hace referencia a la posibilidad electrónica que tiene la cámara fotográfica de utilizar la luz que desde el exterior llega al sensor. Este es un mecanismo integrado en la cámara que se denomina ISO (International Organization for Standardization), el cual tiene valores referentes desde 100 hasta 16000 según modelos de cámaras y autonomías de esta. 
+        p Los que significa que en condiciones normales de luz para la toma fotográfica sus valores pueden ser de 100 hasta 500 ISO. Pero si en la toma fotográfica su escenografía no cuenta con la suficiente iluminación tendrá que de manera autónoma darle o programarle valores mayores (700-16000 ISO) a la cámara, para que desde su sistema integrado electrónico le otorgue luz y la fotografía final tenga buen resultado.
+      .col-md-5.mb-4(data-aos="fade-left")
+        img(src='@/assets/curso/tema3-3-img5.png', alt='Imagen decorativa')
+
+    .bg-suave.py-5.px-1.px-lg-4.mb-4
+      h2.text-center.mb-4 Cámara iso / Guía de sensibilidad del sensor
+      figure
+        img(src='@/assets/curso/tema3-3-figu.svg', alt='Cámara iso / Guía de sensibilidad del sensor')
+
+    p(data-aos="fade") Todo este proceso es electrónico y debe indicarle a la cámara desde el menú y hay que tener en cuenta que entre más valor de ISO se utilice la imagen final tendrá lo que en fotografía se llama “grano”, lo cual es una textura similar a granos perceptibles en la fotografía que no van a incidir en la nitidez de la misma, pero sí en la percepción de textura en la imagen. Esto como resultado de la utilización de un ISO alto, ya que entre más ISO más textura granulada tendrá la imagen final.
+
+    Separador
+
+
+    // 3.4
+    #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      .h2 3.4   Medición y exposición
+
+    .row.mb-5
+      .col-md-7.mb-4(data-aos="fade-right")
+        p Está sometida a dispositivos electrónicos en su mayoría externos y hace referencia a valores adecuados que se deben manejar en la cámara para obtener una buena toma fotográfica. Estos valores los dará un exposímetro que hará lectura de la cantidad de luz que llega al sensor. Como se ha dicho, la fotografía es el manejo y utilización de la luz y para ello, la cámara tiene unos dispositivos que sirven para detener el exceso de luz y ausencia de esta. Estos mecanismos son el diafragma y el obturador, anteriormente mencionados. 
+        .cajon.color-primario.p-4
+          p.mb-0 Debe haber un equilibrio en valores asignados para cada mecanismo que hará que la toma fotográfica sea adecuada, pues un ingreso de mucha luz al sensor hará que la fotografía tenga una sobreexposición y se verá negra, debido a que llega mucha luz y satura el sensor. También se puede dar lo contrario, una subexposición que será una fotografía blanca por la ausencia de luz en el sensor, dicho esto, la medición se hace desde un exposímetro externo que asumirá la cantidad de luz que le llega al sensor de la cámara, indicándole en su pantalla digital del exposímetro qué valor de diafragma y obturador debe manejar la cámara.
+      .col-md-5(data-aos="fade-left")
+        img(src='@/assets/curso/tema3-4-img.png', alt='Imagen decorativa')
+
+    .titulo-tercero.titulo-tercero__4.mb-4(data-aos="fade-right")
+      h3.mb-0 Prioridad de apertura o velocidad
+      img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
+
+    p.mb-4(data-aos="fade") Este punto se refiere a la velocidad en que se mueve el obturador, que es un mecanismo de cortinillas ubicadas horizontalmente frente al sensor, en el siguiente recurso se detallan los elementos.
+
+    .row.justify-content-center.bg-color-primario2.mb-5
+      .col-lg-10
+        SlyderB.py-5(:datos="datosSlyder2")
+
+    
+
 
 </template>
 
@@ -256,6 +341,24 @@ export default {
         texto:
           'Es una fotografía que permite una apreciación única de la realidad al fotógrafo. El valor artístico y expresivo son los más fuertes soportes para esta clase de fotografías, ya que una fotografía puede no tener en cuenta las reglas de composición fotográfica, debido a que su carácter artístico le proporciona esta libertad narrativa.',
         imagen: require('@/assets/curso/tema3-2-slide5.jpg'),
+      },
+    ],
+    datosSlyder2: [
+      {
+        titulo: 'Prioridad de apertura o velocidad',
+        texto:
+          'Su movimiento permite la entrada de la luz que ya ha pasado por el diagrama al sensor y, ese tiempo de duración de luz que está llegando al sensor será la que asumirá el sensor y transformará en electricidad para construir electrónicamente la imagen.',
+        imagen: require('@/assets/curso/tema3-4-slide1.jpg'),
+      },
+      {
+        texto:
+          'Como se ha mencionado, el obturador y su apertura permiten la toma fotográfica, pero también tendrá valores de velocidad de apertura para buscar un control de luz y permitir tener un comportamiento específico de lo que ocurre en esta, es decir, poder a altas velocidades (500-1000) de utilización del obturador,hacer lo que en fotografía se le conoce como congelados a los elementos en movimiento-',
+        imagen: require('@/assets/curso/tema3-4-slide2.jpg'),
+      },
+      {
+        texto:
+          'También, por el manejo de la velocidad lenta (1 o 2 segundos) en obturación, se pueden hacer efectos fotográficos de barrido y de movimiento de objetos, permitiendo tener efectos en la imagen creativos y vistosos. ',
+        imagen: require('@/assets/curso/tema3-4-slide3.jpg'),
       },
     ],
   }),
