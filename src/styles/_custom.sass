@@ -23,6 +23,9 @@ italic-strong
   background-color: #FFF9DF  
 .bg-acento-contenido2
   background-color: #FFAC57
+.bg-color-acento-botones  
+  background-color: #26ccda
+
 
 .bloque-fondo-intro
   background-image: url(../assets/curso/fondo-intro.png)
@@ -34,3 +37,246 @@ italic-strong
   background-repeat: no-repeat
   background-size: 100% 75%
   background-position: bottom 
+
+.titulo-tercero
+  background-color: #FDD835
+  width: fit-content
+  padding: 5px 14px
+  position: relative 
+  &__1 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -24.5%
+  &__2 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -7.5%  
+  &__3 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -9.5%   
+  &__4 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -11.5%  
+  &__5 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -29.5%   
+  &__6 img
+    width: 45px
+    position: absolute
+    top: -36%
+    right: -17.5%   
+.titulo-tercero span
+  font-weight: 500
+
+
+.cajon.color-primario 
+  background-color: #FFD1A2
+
+.cajon2  
+  position: relative
+.cajon2.color-primario.personalizado
+  background-color: transparent 
+.cajon2.personalizado:after
+  background-color: #ffa726
+  content: ""
+  display: block
+  width: 25px
+  height: 10px
+  position: absolute
+  top: 0
+  left: 0
+.cajon2.personalizado:before  
+  background-color: #ffe8c8
+  content: ''
+  display: block
+  position: absolute
+  top: 40% !important
+  bottom: 0 !important
+  left: 35% !important
+  right: 0
+.cajon3  
+  position: relative
+.cajon3.color-acento-botones.personalizado
+  background-color: transparent 
+.cajon3.personalizado:after
+  background-color: #26CCDA
+  content: ""
+  display: block
+  width: 25px
+  height: 10px
+  position: absolute
+  top: 0
+  left: 0
+.cajon3.personalizado:before  
+  background-color: #B1F9FF
+  content: ''
+  display: block
+  position: absolute
+  top: 40% !important
+  bottom: 0 !important
+  left: 35% !important
+  right: 0  
+
+
+.slyder-f__btn i
+  padding: 7px 12px
+  font-size: 1.4rem
+  background-color: #FFF
+  border-radius: 50%
+  border: 2px solid #12263F
+
+.slyder__btn
+  background-color: #26CCDA
+.slyder__btn i
+  font-size: 20px
+.slyder__btn:hover
+  background-color: #D9BA2E
+  color: $color-sistema-texto
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border: 2px solid $color-sistema-texto
+  min-width: 40px
+  max-width: 40px
+  min-height: 40px
+  max-height: 40px
+.linea-tiempo-c__header__item__dot
+  border: 3px solid #26CCDA
+  background-color: #FFF
+.linea-tiempo-c__header__item__line-container:after, .linea-tiempo-c__header__item__line-container:before    
+  background-color: #26CCDA
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
+  background-color: #FFF
+
+.slyder-d__content__card
+  min-width: 310px
+
+.tarjeta-avatar-b .tarjeta
+  border-radius: 0px
+
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: 20px  
+.slyder-a__bullets__item--active
+  background-color: #F57C00 !important
+  border-color: #F57C00 !important
+.slyder-a__bullets__item
+  background-color: #AF9627
+  border-color: #AF9627
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  opacity: 1
+  border: 2px solid #12263F
+.slyder-a__btn--sigt:hover, .slyder-a__btn--atrs:hover
+  border-color: #12263F
+
+  
+
+
+
+
+// TARJETA HOVER TEMA 1-1
+.bg-degrade
+  background: #FFA726
+.tarjeta-foto-hover
+  position: relative
+  overflow: hidden
+  &:hover
+    .tarjeta-foto-hover__tarjeta
+      transform: translateY(0%)
+
+  &__titulo
+    position: absolute
+    bottom: 0
+    width: 100%
+  &__tarjeta
+    transition: transform 0.3s ease-in-out
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 100%
+    transform: translateY(100%) 
+
+
+// TARJETA HOVER TEMA 2-1    
+.nav-holder2
+  display: inline-block
+  margin: 10px 5px
+  overflow: hidden
+  position: relative
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+
+.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+.nav-holder2:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #26CCDA
+  opacity: 1
+  z-index: 888
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
+  transition: all 0.45s ease
+  -webkit-transform: translateY(80%)
+  -moz-transform: translateY(80%)
+  transform: translateY(80%)
+
+.nav-holder2:hover:before
+  -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
+  transform: translateY(0)
+  opacity: 1
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+  border-top-left-radius: 14px
+  border-top-right-radius: 14px
+
+.nav-holder2
+  .text
+    position: absolute
+    top: 75%
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+    bottom: 0
+    padding: 1em
+  img
+    backface-visibility: hidden
+    max-width: 100%
+    vertical-align: top
+    z-index: 0
+  p
+    margin: 0
+    opacity: 0
+    line-height: 1.2em
+
+.nav-holder2 .h4
+  margin: 0
+  opacity: 1
+
+.nav-holder2:hover
+  .text
+    top: -3%
+  h4, p
+    color: #12263F
+    opacity: 1
