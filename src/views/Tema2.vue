@@ -44,13 +44,13 @@
             img(src='@/assets/curso/tema2-tarj5.svg' alt='AvatarTop')
           .tarjeta.bg-acento-botones
             .p-4
-              p.mb-0 La propiedad física medida hace referencia a la luz, al infrarrojo y a la luz ultravioleta
+              p.mb-0 La propiedad física medida hace referencia a la luz, al infrarrojo y a la luz ultravioleta.
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2-tarj6.svg' alt='AvatarTop')
           .tarjeta.bg-acento-botones
             .p-4
-              p.mb-0 La linealidad es el nivel de color gris, el cual correspondería a ser proporcional al brillo de la imagen
+              p.mb-0 La linealidad es el nivel de color gris, el cual correspondería a ser proporcional al brillo de la imagen.
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2-tarj7.svg' alt='AvatarTop')
@@ -81,7 +81,7 @@
             .text.p-lg-2.p-3
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                 .h4.mt-4.mt-lg-0.mb-3 Escáner
-                p Es el dispositivo de captura de imágenes más tradicional, el cual se encarga de convertir una fotografía de un papel, imagen de revista o libro en información que se puede interpretar y manejar en un computador. En la actualidad los escáner pueden emplear 16 bits para cuantificar los niveles de cada sensor, por lo que cada píxel va codificado en 48 bits (16 bits x 3 sensores).
+                p Es el dispositivo de captura de imágenes más tradicional, el cual se encarga de convertir una fotografía de un papel, imagen de revista o libro en información que se puede interpretar y manejar en un computador. En la actualidad los escáner pueden emplear 16 <em>bits</em> para cuantificar los niveles de cada sensor, por lo que cada píxel va codificado en 48 <em>bits</em> (16 <em>bits</em> x 3 sensores).
       .col-lg-4.col-md-9.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0(@mouseover="mostrarIndicador = false")

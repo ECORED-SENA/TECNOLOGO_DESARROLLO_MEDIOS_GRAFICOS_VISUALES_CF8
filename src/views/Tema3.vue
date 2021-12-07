@@ -352,7 +352,7 @@ export default {
       },
       {
         texto:
-          'Como se ha mencionado, el obturador y su apertura permiten la toma fotográfica, pero también tendrá valores de velocidad de apertura para buscar un control de luz y permitir tener un comportamiento específico de lo que ocurre en esta, es decir, poder a altas velocidades (500-1000) de utilización del obturador,hacer lo que en fotografía se le conoce como congelados a los elementos en movimiento-',
+          'Como se ha mencionado, el obturador y su apertura permiten la toma fotográfica, pero también tendrá valores de velocidad de apertura para buscar un control de luz y permitir tener un comportamiento específico de lo que ocurre en esta, es decir, poder a altas velocidades (500-1000) de utilización del obturador,hacer lo que en fotografía se le conoce como congelados a los elementos en movimiento.',
         imagen: require('@/assets/curso/tema3-4-slide2.jpg'),
       },
       {

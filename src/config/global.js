@@ -367,7 +367,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
@@ -375,12 +375,12 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Daniel Felipe Varón Molina',
+        nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
+        nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },

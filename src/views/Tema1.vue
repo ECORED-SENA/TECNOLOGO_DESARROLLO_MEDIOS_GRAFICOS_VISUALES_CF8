@@ -60,9 +60,9 @@
       .col-md-7.mb-4(data-aos="fade-right")
         .cajon2.color-primario.personalizado.px-md-5.py-md-0.p-4.mb-3
           .bloque-texto-b__texto
-            h4.mb-0 El uso del color en impresos se genera a partir del modelo de color CMYK: Cyan, Magenta, Yellow y Key, que traducido significa cian, magenta, amarillo y color clave/negro, se eligió la letra K para diferenciarse del color azul (Blue) y no generar confusiones.      
-        p La imagen digital está representada por impulsos electrónicos cuyo lenguaje es binario. Cuando se habla del lenguaje binario propio de los sistemas digitales se hace referencia a que ese lenguaje se representa en números (1 y 0). El mismo lenguaje que tienen los pixeles y los bits que son la suma de esos píxeles y construyen una retícula de bits, los cuales son los encargados de darle una buena, regular o mala calidad a la imagen digital.
-        p Ahora bien, este lenguaje digital de retícula de bits permite múltiples recursos en usos, almacenamiento y manipulación en el aspecto final en la imagen digital. Lo que hace de la misma un recurso favorable para su utilización en muchos contextos laborales, sociales, culturales y del entretenimiento.
+            h4.mb-0 La etimología del vocablo imagen proviene del latín imago, con el mismo significado. Una imagen es la figura, representación, semejanza y apariencia de algo según se registra en la Real Academia de la Lengua.
+        p La imagen digital está representada por impulsos electrónicos cuyo lenguaje es binario. Cuando se habla del lenguaje binario propio de los sistemas digitales se hace referencia a que ese lenguaje se representa en números (1 y 0). El mismo lenguaje que tienen los pixeles y los <em>bits</em> que son la suma de esos píxeles y construyen una retícula de <em>bits</em>, los cuales son los encargados de darle una buena, regular o mala calidad a la imagen digital.
+        p Ahora bien, este lenguaje digital de retícula de <em>bits</em> permite múltiples recursos en usos, almacenamiento y manipulación en el aspecto final en la imagen digital. Lo que hace de la misma un recurso favorable para su utilización en muchos contextos laborales, sociales, culturales y del entretenimiento.
       .col-md-5.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1-1-img.png', alt='Imagen decorativa')    
 
@@ -139,7 +139,7 @@
         .row.justify-content-center(titulo="Factor de cualidad técnica")
           .col-md-5.mb-4.mb-md-0
             h4 Factor de cualidad técnica
-            p Hace referencia al contraste y tonalidad gradual, en caso de ser baja, la imagen desaparece y en caso de ser mayor, mejora la calidad
+            p Hace referencia al contraste y tonalidad gradual, en caso de ser baja, la imagen desaparece y en caso de ser mayor, mejora la calidad.
           .col-md-5
             figure
               img(src='@/assets/curso/tema1-1-linea3.png', alt='Factor de cualidad técnica')
@@ -188,14 +188,14 @@
         p Una imagen 
           span.etiqueta es una representación a nivel visual de un determinado elemento,
           |  lo cual se obtiene al emplear ciertas técnicas que están relacionadas con el arte, la fotografía, el video, el diseño y demás disciplinas.
-        p La digitalización de la imagen, la utilización de los diferentes dispositivos de almacenamiento y la circulación hacen que los tipos de imágenes tengan diferencias significativas en su matriz. En las imágenes fotográficas digitales su matriz es una retícula de píxeles que se asume como un mapa de bits; la suma de píxeles para la construcción de la imagen latente. 
-        p Con el fin de hablar acerca de los dos tipos de imágenes que se tomarán como referencia en este componente formativo se precisa acerca de las imágenes de mapa de bits e imágenes vectorizadas.  
+        p La digitalización de la imagen, la utilización de los diferentes dispositivos de almacenamiento y la circulación hacen que los tipos de imágenes tengan diferencias significativas en su matriz. En las imágenes fotográficas digitales su matriz es una retícula de píxeles que se asume como un mapa de <em>bits</em>; la suma de píxeles para la construcción de la imagen latente. 
+        p Con el fin de hablar acerca de los dos tipos de imágenes que se tomarán como referencia en este componente formativo se precisa acerca de las imágenes de mapa de <em>bits</em> e imágenes vectorizadas.  
       .col-md-5.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1-2-img.png', alt='Imagen decorativa')  
 
 
     .titulo-tercero.titulo-tercero__5.mb-4(data-aos="fade-right")
-      h3.mb-0 Imágenes de mapa de bits
+      h3.mb-0 Imágenes de mapa de <em>bits</em>
       img(src='@/assets/curso/titulo-tercero.svg', alt='Imagen decorativa')
 
     .row
@@ -208,7 +208,7 @@
         p Este tipo de imagen cuenta con una gama mayor de colores y de tonos que las imágenes vectoriales, por tanto, su uso específico es en la fotografía. Es el tipo de imagen que se crea en los escáner, cámaras fotográficas y programas de dibujo y de edición de fotos, para referir a 
           italic Adobe Photoshop.
         
-    p.mb-4(data-aos="fade") Esta categoría de imágenes que su matriz es un mapa de bits tiene los siguientes formatos de archivos donde cada uno tiene diferente capacidad de contener cierta cantidad de bits según su utilidad y circulación, es decir, visualización:
+    p.mb-4(data-aos="fade") Esta categoría de imágenes que su matriz es un mapa de <em>bits</em> tiene los siguientes formatos de archivos donde cada uno tiene diferente capacidad de contener cierta cantidad de <em>bits</em> según su utilidad y circulación, es decir, visualización:
 
     .row.mb-5
       BotonesA
@@ -226,7 +226,7 @@
       .col-md-5.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1-2-img3.png', alt='Imagen decorativa')
 
-    p.mb-4(data-aos="fade") Cuentan con una gran ventaja a diferencia de las imágenes de mapa de bits:
+    p.mb-4(data-aos="fade") Cuentan con una gran ventaja a diferencia de las imágenes de mapa de <em>bits</em>:
 
     .row.justify-content-center.align-items-center(data-aos="fade-down")
       .col-md-4.mb-4
@@ -255,7 +255,7 @@
     .row.mb-5
       BotonesB
 
-    p.mb-4(data-aos="fade") El siguiente video consolida la temática sobre imágenes de mapa de bits e imágenes vectoriales.
+    p.mb-4(data-aos="fade") El siguiente video consolida la temática sobre imágenes de mapa de <em>bits</em> e imágenes vectoriales.
 
     .row.justify-content-center(data-aos="fade-down") 
       .col-md-10
@@ -276,7 +276,7 @@
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0
             h4 Resolución
-            p Al tener en cuenta la resolución de una imagen se hace referencia al grado de detalle que tiene la imagen digital; en otras palabras, a la calidad de esta. Si se recuerda, la imagen digital se construye de la suma de píxeles, es decir; una retícula de mapa de bits. Pero esos píxeles deben ocupar un área determinada, un área establecida, digitalmente hablando (lo que ocupa un área determinada por los límites propios de la imagen).
+            p Al tener en cuenta la resolución de una imagen se hace referencia al grado de detalle que tiene la imagen digital; en otras palabras, a la calidad de esta. Si se recuerda, la imagen digital se construye de la suma de píxeles, es decir; una retícula de mapa de <em>bits</em>. Pero esos píxeles deben ocupar un área determinada, un área establecida, digitalmente hablando (lo que ocupa un área determinada por los límites propios de la imagen).
           .col-md-5
             figure
               img(src='@/assets/curso/tema1-3-slide1.png', alt='Resolución')
@@ -311,14 +311,14 @@
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.4  Modos y profundidad de color
 
-    p.mb-4(data-aos="fade") Hablar sobre la profundad de color es hacer referencia al número de bits que necesita una imagen para codificar y guardar la información de color de cada píxel en una imagen digital. Por esta razón, se representa que cada píxel tiene unos valores (a x b x c) donde a y b son el alto y ancho de un píxel y c su profundidad, reflejándose de la siguiente manera:
+    p.mb-4(data-aos="fade") Hablar sobre la profundad de color es hacer referencia al número de <em>bits</em> que necesita una imagen para codificar y guardar la información de color de cada píxel en una imagen digital. Por esta razón, se representa que cada píxel tiene unos valores (a x b x c) donde a y b son el alto y ancho de un píxel y c su profundidad, reflejándose de la siguiente manera:
 
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10.col-lg-8
         figure.mb-4
           img(src='@/assets/curso/tema1-4-figura.svg', alt='Imagen')
 
-    p.mb-5(data-aos="fade") Ahora bien, un bit es una posición de memoria que puede tener como valor 0 o 1. Por lo tanto, se utiliza 1-bit para imágenes en blanco/negro, sin grises (0=color negro, 1= color blanco). Cuanto mayor sea la profundidad de color en bits, la imagen dispondrá de una paleta de colores más amplia.
+    p.mb-5(data-aos="fade") Ahora bien, un <em>bit</em> es una posición de memoria que puede tener como valor 0 o 1. Por lo tanto, se utiliza 1-<em>bit</em> para imágenes en blanco/negro, sin grises (0=color negro, 1= color blanco). Cuanto mayor sea la profundidad de color en <em>bits</em>, la imagen dispondrá de una paleta de colores más amplia.
 
     .titulo-tercero.titulo-tercero__6.mb-4(data-aos="fade-right")
       h3.mb-0 Los modos de color
@@ -355,7 +355,7 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1-5-flip2.svg')})`}")
             .tarjeta-flip__contenido.text-center.p-4.p-xl-4
               h4 GIF (<em>Graphic Interchange Format</em>) 
-              p.mb-0 Su característica principal y diferencial es que permite transparencias en el fondo y puede ser animado. Su distribución es de 8 bits/píxel, con lo cual tiene la capacidad de tener 256 colores. 
+              p.mb-0 Su característica principal y diferencial es que permite transparencias en el fondo y puede ser animado. Su distribución es de 8 <em>bits</em>/píxel, con lo cual tiene la capacidad de tener 256 colores. 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor
@@ -410,7 +410,7 @@
               figure
                 img(src='@/assets/curso/tema1-5-icono2.svg', alt='Texto que describa la imagen')
           h2 Optimización con pérdida
-          p Hace referencia a un filtro que borra algunos datos de la imagen, lo cual hará que la imagen se degrade, se recomienda hacer una buena reducción proporcional de la imagen, se podrá ajustar la calidad de configuración de la imagen utilizando Adobe Photoshop. 
+          p Hace referencia a un filtro que borra algunos datos de la imagen, lo cual hará que la imagen se degrade, se recomienda hacer una buena reducción proporcional de la imagen, se podrá ajustar la calidad de configuración de la imagen utilizando <em>Adobe Photoshop</em>. 
       .col-md-5.tarjeta.color-primario.text-center.p-5
           .row.justify-content-center.mb-4
             .col-4
