@@ -125,17 +125,17 @@ export default {
     padding: 13%
 
   .btns_item--0
-    top: 0.5% !important
-    left: 2.1% !important
+    top: 1.8% !important
+    left: 1.8% !important
   .btns_item--1
-    top: 0.5% !important
+    top: 1.8% !important
     left: 25.3% !important
   .btns_item--2
-    top: 0.5% !important
-    left: 48.3% !important
+    top: 1.8% !important
+    left: 48.9% !important
   .btns_item--3
-    top: 0.5% !important
-    left: 71.5% !important
+    top: 1.8% !important
+    left: 72.5% !important
 
 
   .btns__text

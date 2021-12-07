@@ -131,21 +131,25 @@ export default {
       line-height: 1.2em
 @media (max-width: $bp-max-md)
   .btns__item
-    width: 13% !important
-    padding: 13%
+    width: 10% !important
+    padding: 10%
 
   .btns_item--0
     top: 0.5% !important
     left: 2.1% !important
   .btns_item--1
     top: 0.5% !important
-    left: 25.3% !important
+    left: 21.3% !important
   .btns_item--2
     top: 0.5% !important
-    left: 48.3% !important
+    left: 40.3% !important
   .btns_item--3
     top: 0.5% !important
-    left: 71.5% !important
+    left: 58.5% !important
+  .btns_item--4
+    top: 0.5% !important
+    left: 78% !important
+
 
 
   .btns__text
@@ -157,5 +161,7 @@ export default {
   .btns_item--2 .btns__text
     left: 10%
   .btns_item--3 .btns__text
-    left: -80%
+    left: -50%
+  .btns_item--4 .btns__text
+    left: -60%
 </style>
