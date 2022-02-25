@@ -159,7 +159,7 @@
         .row.justify-content-center(titulo="Los lentes fotográficos")
           .col-md-10.mb-4.mb-md-0
             h4 Los lentes fotográficos
-            p Son herramientas fundamentales para la imagen final, tanto como expresión creativa como para la practicidad de la toma fotográfica. La amplia gama de lentes a disposición hace posible que todas la necesidades y exigencias fotográficas sean posibles. Es importante mencionar que los diferentes lentes tienen diversos ángulos de toma fotográfica. Todos los lentes se miden en mm (28 mm, 50 mm) y cada uno de ellos tiene su ángulo y amplitud de toma. Cada color en la siguiente imagen representa un ángulo de toma según su valor de en mm.
+            p Son herramientas fundamentales para la imagen final, tanto como expresión creativa como para la practicidad de la toma fotográfica. La amplia gama de lentes a disposición hace posible que todas la necesidades y exigencias fotográficas sean posibles. Es importante mencionar que los diferentes lentes tienen diversos ángulos de toma fotográfica. Todos los lentes se miden en mm (28 mm, 50 mm) y cada uno de ellos tiene su ángulo y amplitud de toma. Cada color en la siguiente imagen representa un ángulo de toma según su valor en mm.
           .col-md-8
             figure
               img(src='@/assets/curso/tema3-3-linea9.png', alt='Los lentes fotográficos')                                     
